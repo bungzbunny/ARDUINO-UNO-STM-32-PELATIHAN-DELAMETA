@@ -1,0 +1,51 @@
+pin A4,A5 Analog untuk komunikasi= tidak boleh dipakai (sda,scl) pin i2c
+yang dipakai A1 A2 A3 Analog 
+vin= volt input dari batre,supply daya 7-12v, positive
+gnd= negative
+5v= volt output daya ke sensor,lcd 
+tx, rx = mengkomunaksikan mikrokkontroler dengan komputer
+interup PIN2 PIN3
+PIN 13= LED
+
+
+ESP01
+YANG DIPAKAI=
+GPIO0
+GPIO2
+
+UNTUK MENGECEK
+CEKLIS
+CTRL R
+SKETCH>VERIFY
+
+TOOLS
+BOARD
+ARDUINO UNO
+
+TOOLS
+PORT
+COM3
+UPLOAD
+
+void setup: dijalankan sekali, untuk setup seumur hidup (inisialisasi pin)
+void loop : dijalankan looping, terus menerus
+
+1000ms=1s
+
+FOR LED-untuk mengiritkan coding
+// untuk mematikan
+i mulai mau dikontrol dari angka 2 sampai 4 ++=1
+
+PWM NILAI ANALOG UNTUK OUTPUT
+
+
+
+
+
+
+
+
+
+
+
+
